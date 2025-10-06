@@ -1,0 +1,71 @@
+[
+  {
+    "customer": "ABC商事",
+    "content": "システム開発",
+    "department": "営業1課",
+    "budget": "500000",
+    "startDate": "2025-01-01",
+    "endDate": "2025-06-30",
+    "members": [
+      "E001",
+      "E003"
+    ]
+  },
+  {
+    "customer": "XYZ株式会社",
+    "content": "Webサイト制作",
+    "department": "営業2課",
+    "budget": "300000",
+    "startDate": "2025-02-01",
+    "endDate": "2025-04-30",
+    "members": [
+      "E002"
+    ]
+  },
+  {
+    "customer": "DEF工業",
+    "content": "アプリ開発",
+    "department": "営業3課",
+    "budget": "800000",
+    "startDate": "2025-03-01",
+    "endDate": "2025-09-30",
+    "members": [
+      "E004",
+      "E005"
+    ]
+  },
+  {
+    "customer": "GHIサービス",
+    "content": "保守運用",
+    "department": "営業4課",
+    "budget": "200000",
+    "startDate": "2025-01-15",
+    "endDate": "2025-12-31",
+    "members": [
+      "E001"
+    ]
+  },
+  {
+    "customer": "JKLテック",
+    "content": "クラウド導入",
+    "department": "営業5課",
+    "budget": "1000000",
+    "startDate": "2025-05-01",
+    "endDate": "2025-11-30",
+    "members": [
+      "E003",
+      "E005"
+    ]
+  },
+  {
+    "customer": "自社",
+    "content": "アサイン管理アプリ",
+    "department": "なし",
+    "budget": "100",
+    "startDate": "2025-10-01",
+    "endDate": "2025-10-31",
+    "members": [
+      "0001"
+    ]
+  }
+]

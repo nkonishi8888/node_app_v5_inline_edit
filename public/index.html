@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>案件管理アプリ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>案件管理アプリ</h1>
+
+<section id="assignment-section">
+<h2>アサイン管理</h2>
+<table id="assignment-table">
+<thead>
+<tr id="assignment-header">
+<th>社員番号</th>
+<th>氏名</th>
+<th>所属Gr</th>
+<th>社員種別</th>
+<th>地域</th>
+<th>状態</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+</section>
+
+<section id="employee-section">
+<h2>従業員登録</h2>
+<button id="add-employee">従業員追加</button>
+<button id="save-employees">保存</button>
+<table id="employee-table">
+<thead>
+<tr>
+<th>社員番号</th>
+<th>氏名</th>
+<th>役職</th>
+<th>所属Gr</th>
+<th>社員種別</th>
+<th>地域</th>
+<th>状態</th>
+<th>操作</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+</section>
+
+<section id="project-section">
+<h2>案件登録</h2>
+<form id="project-form">
+<input type="text" id="customer" placeholder="顧客情報" required>
+<input type="text" id="content" placeholder="案件内容" required>
+<input type="text" id="department" placeholder="部門・営業担当者" required>
+<input type="number" id="budget" placeholder="予算" required>
+<input type="date" id="startDate" required>
+<input type="date" id="endDate" required>
+<fieldset>
+<legend>メンバー入力方法</legend>
+<label><input type="radio" name="memberMode" value="smart" checked>スマート選択</label>
+<label><input type="radio" name="memberMode" value="csv">CSV入力</label>
+</fieldset>
+<div id="member-smart">
+<div id="chips" class="chips"></div>
+<input id="member-input" list="employee-options" placeholder="社員番号または氏名で検索してEnterで追加">
+<datalist id="employee-options"></datalist>
+</div>
+<div id="member-csv" class="hidden">
+<textarea id="members-csv" rows="3" placeholder="例: E001, E003"></textarea>
+</div>
+<button type="submit">案件追加</button>
+</form>
+<button id="save-projects">保存</button>
+<table id="project-table">
+<thead>
+<tr>
+<th>顧客情報</th>
+<th>案件内容</th>
+<th>部門・営業担当者</th>
+<th>予算</th>
+<th>開始日</th>
+<th>終了日</th>
+<th>メンバー</th>
+<th>操作</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

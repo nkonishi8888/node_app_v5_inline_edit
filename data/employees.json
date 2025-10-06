@@ -1,0 +1,56 @@
+[
+  {
+    "id": "E001",
+    "name": "山田太郎",
+    "position": "主任",
+    "group": "開発",
+    "type": "正社員",
+    "region": "東京",
+    "status": "稼働中"
+  },
+  {
+    "id": "E002",
+    "name": "佐藤花子",
+    "position": "係長",
+    "group": "営業",
+    "type": "正社員",
+    "region": "大阪",
+    "status": "待機中"
+  },
+  {
+    "id": "E003",
+    "name": "鈴木一郎",
+    "position": "課長",
+    "group": "開発",
+    "type": "契約",
+    "region": "名古屋",
+    "status": "稼働中"
+  },
+  {
+    "id": "E004",
+    "name": "田中健",
+    "position": "主任",
+    "group": "サポート",
+    "type": "正社員",
+    "region": "福岡",
+    "status": "稼働中"
+  },
+  {
+    "id": "E005",
+    "name": "高橋愛",
+    "position": "部長",
+    "group": "営業",
+    "type": "正社員",
+    "region": "東京",
+    "status": "待機中"
+  },
+  {
+    "id": "0001",
+    "name": "小西夏月",
+    "position": "一般",
+    "group": "一般",
+    "type": "一般",
+    "region": "大阪",
+    "status": "稼働中"
+  }
+]
