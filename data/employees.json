@@ -52,5 +52,14 @@
     "type": "一般",
     "region": "大阪",
     "status": "稼働中"
+  },
+  {
+    "id": "0002",
+    "name": "小西紀史",
+    "position": "一般",
+    "group": "一般",
+    "type": "一般",
+    "region": "大阪",
+    "status": "稼働中"
   }
 ]
