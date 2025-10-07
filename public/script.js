@@ -1,3 +1,6 @@
+// script.js
+// Frontend logic for managing employees, projects, and assignments
+
 let employees = [];
 let projects = [];
 let months = [];
